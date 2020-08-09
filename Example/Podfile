@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DGTLbl_Example' do
+  pod 'DGTLbl', :path => '../'
+
+  target 'DGTLbl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
