@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		010CA2DAC14F5D550490922B /* Pods_DGTLbl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGTLbl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3045C9B0F9976A9CBA46A546 /* Pods-DGTLbl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGTLbl_Tests.release.xcconfig"; path = "Target Support Files/Pods-DGTLbl_Tests/Pods-DGTLbl_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3BE07780AABE6FA53B754AF5 /* DGTLbl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DGTLbl.podspec; path = ../DGTLbl.podspec; sourceTree = "<group>"; };
+		3BE07780AABE6FA53B754AF5 /* DGTLbl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DGTLbl.podspec; path = ../DGTLbl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4CE9FB733006179692B5EC5A /* Pods-DGTLbl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGTLbl_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DGTLbl_Tests/Pods-DGTLbl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DGTLbl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGTLbl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,9 +42,9 @@
 		607FACE51AFB9204008FA782 /* DGTLbl_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DGTLbl_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		79938B4AEB5FD3193C0907CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		79938B4AEB5FD3193C0907CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A751462C033F0F804E336431 /* Pods_DGTLbl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGTLbl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD2D2F4BE155E507B0CB89E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BD2D2F4BE155E507B0CB89E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C5700D985902E181883716AC /* Pods-DGTLbl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGTLbl_Example.debug.xcconfig"; path = "Target Support Files/Pods-DGTLbl_Example/Pods-DGTLbl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ECA146240CC1E998FAEB3F75 /* Pods-DGTLbl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGTLbl_Example.release.xcconfig"; path = "Target Support Files/Pods-DGTLbl_Example/Pods-DGTLbl_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				4CE9FB733006179692B5EC5A /* Pods-DGTLbl_Tests.debug.xcconfig */,
 				3045C9B0F9976A9CBA46A546 /* Pods-DGTLbl_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

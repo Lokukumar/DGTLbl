@@ -1,0 +1,6 @@
+framework module DGTLbl {
+  umbrella header "DGTLbl-umbrella.h"
+
+  export *
+  module * { export * }
+}
